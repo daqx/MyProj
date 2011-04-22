@@ -9,7 +9,7 @@ class BlogPost(models.Model):
    
     
 class BlogPostAdmin(admin.ModelAdmin):
-    list_display=('title','body','timestamp')
+    list_display=('title','body')
     
 
 admin.site.register(BlogPost,BlogPostAdmin)
